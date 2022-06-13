@@ -1,0 +1,122 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    color: rgb(236, 236, 241);
+    background-color: #012626;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #027368 60px,#04bfad);
+    min-height: 150px;
+}
+header > h1{
+    text-align: center;
+    padding-top: 20px;
+    color: gainsboro;
+}
+header > p{
+    text-align: center;
+    padding-top: 10px;
+    color: gainsboro;
+}
+nav{
+    padding: 10px;
+    background-color: #027368;
+    box-shadow: 0px 1px 8px white;
+    
+}
+
+nav h1{
+    padding: 10px;
+    color: white;
+}
+nav > a{
+    text-decoration: none;
+    padding: 10px;
+    color: gainsboro;
+    
+}
+nav > a:hover{
+    background-color: rgba(0, 0, 0, 0.514);
+    transition: .5s;
+    border-radius: 5px;
+}
+main{
+    min-width: 320px;
+    max-width: 1000px;
+    margin: auto;
+    background-color:#0d9183; 
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+main h1{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-indent: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+main p{
+  text-align: justify;
+  text-indent: 10px;
+  line-height: 50px;
+  font-size: 20px;
+}
+article{
+    padding: 10px;
+}
+#pa > p{
+    text-align: center;
+}
+section{
+    padding: 10px;
+}
+
+
+img.minhafoto{
+    width: 100%; 
+    display: block;
+     max-width: 400px;
+     margin: auto;
+}
+figcaption{
+    text-align: center;
+}
+footer{
+    text-align: center;
+    color: gainsboro;
+    background-color:#043b3b;
+    padding-top: 20px;
+    font-family: cursive;
+}
+
+footer > h1{
+    font-size: 30px;
+}
+footer > p, a{
+    font-size: 20px;
+    color: gainsboro;
+}
+.container{
+    width: 100%; 
+    min-width: 100vh;
+    display: inline-block;
+    align-items: center;
+    justify-items: center;
+    padding: 50px 8%;
+}
+.Galeria{
+    margin:100px auto;
+    width: 50%;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:30px;
+}
+.Galeria img{
+    width:100%;
+}
