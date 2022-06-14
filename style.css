@@ -120,3 +120,12 @@ footer > p, a{
 .Galeria img{
     width:100%;
 }
+
+video{
+    width: 100%;
+    margin: auto;
+    min-width: 320px;
+    max-width: 800px;
+    margin: 0px -20px;
+    padding: 20px;
+}
